@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\luiz_\OneDrive\Área de Trabalho\Engenharia de Software III\Strategy\ClassStrategy\.metadata\.plugins\org.eclipse.jdt.core
+3554480530.index
+1865797976.index
+1067094681.index

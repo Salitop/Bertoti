@@ -3,6 +3,7 @@ package Strategy;
 
 public class CalcularCarga{
 
+	
 	public double PossuiCarga(double qtdCarga) {		
 	    double porcTaxa = qtdCarga * 1.5;
 	    return porcTaxa;

@@ -1,0 +1,28 @@
+package Strategy;
+
+public class Veiculo {
+	private static double pesoCarga;
+	private static int qtdRodas;
+	private static double valorPedagio;
+	private static double valorCarga;
+	
+	public double VerificarVeiculo(qtdRodas) {
+		if(qtdRodas <= 4)
+			valorPedagio = verificaRoda.VeiculoComum(qtdRodas);
+		else
+			valorPedagio = verificaRoda.VeiculoGrande(qtdRodas);
+		
+		if(pesoCarga <= 5) {
+			valorCarga = verificaCarga.NaoPossuiCarga(pesoCarga);
+		}
+		else {
+			valorCarga = verificaCarga.PossuiCarga(pesoCarga);
+		}
+		
+		total = valorCarga + valorPedagio;
+		System.out.print("Valor da taxa da carga: " + valorCarga + "\n"
+						  + "Valor do pedágio: " + valorPedagio + "\n"
+						  + "Valor total: " + total);
+		return total
+	}
+}
